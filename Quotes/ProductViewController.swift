@@ -61,7 +61,7 @@ class ProductViewController: UIViewController ,UITableViewDataSource,UITableView
     }
     
     func Pro_API(){
-        let url = "https://akashsir.in/myapi/at-quotes/api/api-list-product.php?categoty_id=\(catId)"
+        let url = "https://D3.in/myapi/at-quotes/api/api-list-product.php?categoty_id=\(catId)"
         AF.request(url,method: .get).responseJSON{(response) in
             switch response.result{
                 

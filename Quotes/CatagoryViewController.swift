@@ -52,7 +52,7 @@ class CatagoryViewController: UIViewController ,UITableViewDataSource,UITableVie
     }
     
     func CatAPI(){
-        let CatURL = "https://akashsir.in/myapi/at-quotes/api/api-list-category.php"
+        let CatURL = "https://D3.in/myapi/at-quotes/api/api-list-category.php"
         AF.request(CatURL).responseJSON{(response) in
             switch response.result{
             case .success:
